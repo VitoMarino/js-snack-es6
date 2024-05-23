@@ -1,4 +1,4 @@
-let listaVip = [
+/* let listaVip = [
     {
         tableName: '',
         guestName: 'Brad Pitt',
@@ -54,9 +54,11 @@ let listaVip = [
         guestName: 'Fiorello',
         place: '11'
     },
-]
+] */
 
-listaVip.tableName = 'Tavolo Vip';
+const tavoloVip = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'];
 
+const obj = Object.assign({}, tavoloVip);
 
-console.log(listaVip.tableName, listaVip.guestName, listaVip.place);
+console.log(obj)
+
