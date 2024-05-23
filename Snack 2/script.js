@@ -36,23 +36,23 @@ const students = [
     },
 ]
 
-students.forEach((element) => {
-    console.log(element.nome.toUpperCase())
+const nomi = students.map((element) => {
+    return element.nome.toUpperCase();
 });
+console.log(nomi)
 
 const voto = students.filter((element) => {
-    if (70 > element.sommaVoti) {
+    if (element.sommaVoti > 70) {
         return true;
     }
-    console.log(element.sommaVoti);
 });
+console.log(voto);
 
 const votoId = students.filter((element) => {
     if (element.id > 120 && element.sommaVoti > 70) {
         return true;
     } 
-    console.log(element.nome);
 });
-
+console.log(votoId);
 
 
