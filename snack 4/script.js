@@ -16,4 +16,11 @@ const squadre = [
     }
 ];
 
+squadre.forEach((element) => {
+    element.puntiFatti = Math.round(Math.random() * 100);
+    element.falliSubiti = Math.round(Math.random() * 100);
+});
 
+squadre.forEach((element) => {
+    const {nome, falliSubit} = squadre;
+})

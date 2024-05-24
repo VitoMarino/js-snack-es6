@@ -10,7 +10,9 @@ const bici = [
     {
         nome: 'Flash',
         peso: 30
-    },
+    }
 ];
 
+
+const {peso} = bici;
 
