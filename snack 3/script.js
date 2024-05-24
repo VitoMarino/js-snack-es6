@@ -13,6 +13,8 @@ const bici = [
     }
 ];
 
-
-const {peso} = bici;
+bici.forEach((element) => {
+    peso = Math.min(element.peso);
+    console.log(peso);
+});
 
