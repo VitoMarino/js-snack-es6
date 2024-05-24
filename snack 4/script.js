@@ -22,5 +22,6 @@ squadre.forEach((element) => {
 });
 
 squadre.forEach((element) => {
-    const {nome, falliSubit} = squadre;
-})
+    const {nome, falliSubuti} = element;
+    console.log(element);
+});
